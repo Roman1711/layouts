@@ -1,0 +1,19 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2636_3082">
+			<rect id="ant-design:facebook-filled" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2636_3081">
+			<rect id="facebook" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2636_3081)">
+		<rect id="ant-design:facebook-filled" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip2636_3082)">
+			<path id="Vector" d="M23.5 11.5703C23.5 5.17969 18.3516 0 12.002 0C5.64844 0.000976562 0.5 5.17969 0.5 11.5723C0.5 17.3457 4.70508 22.1318 10.2012 23L10.2012 14.915L7.2832 14.915L7.2832 11.5723L10.2051 11.5723L10.2051 9.02051C10.2051 6.12109 11.9219 4.52051 14.5488 4.52051C15.8066 4.52051 17.123 4.74609 17.123 4.74609L17.123 7.5918L15.6719 7.5918C14.2441 7.5918 13.7988 8.48438 13.7988 9.40039L13.7988 11.5703L16.9883 11.5703L16.4785 14.9141L13.7988 14.9141L13.7988 22.999C19.2949 22.1309 23.5 17.3438 23.5 11.5703Z" fill="#96BB7C" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
