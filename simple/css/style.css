@@ -305,7 +305,7 @@ body {
     color: #7875FE;
     font-size: 20px;
     position: relative;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .frame__more::after {
