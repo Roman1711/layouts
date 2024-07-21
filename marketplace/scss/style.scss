@@ -174,10 +174,11 @@ body {
 }
 
 .card-hero {
-    perspective: 400px;
+ /*   perspective: 400px; */
     // .card-hero__items
 
     &__items {
+        /*
         @media (any-hover: hover) {
             &:hover {
                 animation: rotate 8s infinite;
@@ -186,25 +187,26 @@ body {
                     0% {
                         transform: rotateY(-15deg)
                     }
-        
+
                     25% {
                         transform: rotateY(0deg)
                     }
-        
+
                     50% {
                         transform: rotateY(15deg)
                     }
-        
+
                     75% {
                         transform: rotateY(0deg)
                     }
-        
+
                     100% {
                         transform: rotateY(-15deg)
                     }
                 }
             }
         }
+        */
 
     }
 

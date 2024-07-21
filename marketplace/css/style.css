@@ -1327,58 +1327,38 @@ body {
 }
 
 .card-hero {
-  -webkit-perspective: 400px;
-          perspective: 400px;
+  /*   perspective: 400px; */
 }
-@media (any-hover: hover) {
-  .card-hero__items:hover {
-    -webkit-animation: rotate 8s infinite;
-            animation: rotate 8s infinite;
+.card-hero__items {
+  /*
+  @media (any-hover: hover) {
+      &:hover {
+          animation: rotate 8s infinite;
+
+          @keyframes rotate {
+              0% {
+                  transform: rotateY(-15deg)
+              }
+
+              25% {
+                  transform: rotateY(0deg)
+              }
+
+              50% {
+                  transform: rotateY(15deg)
+              }
+
+              75% {
+                  transform: rotateY(0deg)
+              }
+
+              100% {
+                  transform: rotateY(-15deg)
+              }
+          }
+      }
   }
-  @-webkit-keyframes rotate {
-    0% {
-      -webkit-transform: rotateY(-15deg);
-              transform: rotateY(-15deg);
-    }
-    25% {
-      -webkit-transform: rotateY(0deg);
-              transform: rotateY(0deg);
-    }
-    50% {
-      -webkit-transform: rotateY(15deg);
-              transform: rotateY(15deg);
-    }
-    75% {
-      -webkit-transform: rotateY(0deg);
-              transform: rotateY(0deg);
-    }
-    100% {
-      -webkit-transform: rotateY(-15deg);
-              transform: rotateY(-15deg);
-    }
-  }
-  @keyframes rotate {
-    0% {
-      -webkit-transform: rotateY(-15deg);
-              transform: rotateY(-15deg);
-    }
-    25% {
-      -webkit-transform: rotateY(0deg);
-              transform: rotateY(0deg);
-    }
-    50% {
-      -webkit-transform: rotateY(15deg);
-              transform: rotateY(15deg);
-    }
-    75% {
-      -webkit-transform: rotateY(0deg);
-              transform: rotateY(0deg);
-    }
-    100% {
-      -webkit-transform: rotateY(-15deg);
-              transform: rotateY(-15deg);
-    }
-  }
+  */
 }
 .card-hero__image img {
   border-radius: 20px 20px 0px 0px;
