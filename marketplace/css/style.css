@@ -806,6 +806,24 @@ textarea {
 }
 .header__logo {
   z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.75rem;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-size: min(max(20px, 20px + 4 * (100vw - 320px) / 760), 24px);
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+.header__logo img {
+  width: 32px;
+  height: 32px;
 }
 @media (max-width: 57.87375em) {
   .header__menu {

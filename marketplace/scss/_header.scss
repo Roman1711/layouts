@@ -25,9 +25,21 @@
     // .header__logo
 
     &__logo {
-        
-        
         z-index: 100;
+        display: flex;
+        align-items: center;
+        gap: toRem(12);
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 24px;
+        font-size: min(max(20px, calc(20px + (24 - 20) * ((100vw - 320px) / (1080 - 320)))), 24px);
+        font-weight: 600;
+        line-height: 1.1;
+        text-transform: capitalize;
+        img{
+            width: 32px;
+            height: 32px;
+        }
     }
 
     // .header__menu
