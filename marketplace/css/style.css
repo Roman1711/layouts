@@ -458,13 +458,6 @@ textarea {
   padding: 0.3125rem 0.625rem;
   border-radius: 1.25rem;
   background: #858584;
-  -webkit-transition: color 0.3;
-  transition: color 0.3;
-}
-@media (any-hover: hover) {
-  .nft-body-marketplace__number:hover {
-    color: #858584;
-  }
 }
 
 .collections-body-marketplace {
@@ -494,13 +487,6 @@ textarea {
   padding: 0.3125rem 0.625rem;
   border-radius: 1.25rem;
   background: #858584;
-  -webkit-transition: color 0.3;
-  transition: color 0.3;
-}
-@media (any-hover: hover) {
-  .collections-body-marketplace__number:hover {
-    color: #858584;
-  }
 }
 
 .market__items {
