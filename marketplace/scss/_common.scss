@@ -410,7 +410,7 @@
         font-weight: 600;
         line-height: 1.4;
         text-transform: capitalize;
-        transition: 0.3;
+        transition: color 0.3;
 
         @media (any-hover: hover) {
             &:hover {
@@ -426,7 +426,12 @@
         padding: .3125rem .625rem;
         border-radius: 1.25rem;
         background: #858584;
-        transition: 0.3;
+        transition: color 0.3;
+        @media (any-hover: hover) {
+            &:hover {
+                color: #858584;
+            }
+        }
     }
 }
 
@@ -441,7 +446,7 @@
         font-weight: 600;
         line-height: 1.4;
         text-transform: capitalize;
-        transition: 0.3;
+        transition: color 0.3;
 
         @media (any-hover: hover) {
             &:hover {
@@ -457,7 +462,12 @@
         padding: .3125rem .625rem;
         border-radius: 1.25rem;
         background: #858584;
-        transition: 0.3;
+        transition: color 0.3;
+        @media (any-hover: hover) {
+            &:hover {
+                color: #858584;
+            }
+        }
     }
 }
 
@@ -702,7 +712,7 @@
     // .header-body-artist__link
 
     &__link {
-        transform: color 0.3s;
+        transition: color 0.3s;
 
         @media (any-hover: hover) {
             &:hover {

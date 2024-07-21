@@ -445,8 +445,8 @@ textarea {
   font-weight: 600;
   line-height: 1.4;
   text-transform: capitalize;
-  -webkit-transition: 0.3;
-  transition: 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
 }
 @media (any-hover: hover) {
   .nft-body-marketplace__name:hover {
@@ -458,8 +458,13 @@ textarea {
   padding: 0.3125rem 0.625rem;
   border-radius: 1.25rem;
   background: #858584;
-  -webkit-transition: 0.3;
-  transition: 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
+}
+@media (any-hover: hover) {
+  .nft-body-marketplace__number:hover {
+    color: #858584;
+  }
 }
 
 .collections-body-marketplace {
@@ -476,8 +481,8 @@ textarea {
   font-weight: 600;
   line-height: 1.4;
   text-transform: capitalize;
-  -webkit-transition: 0.3;
-  transition: 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
 }
 @media (any-hover: hover) {
   .collections-body-marketplace__name:hover {
@@ -489,8 +494,13 @@ textarea {
   padding: 0.3125rem 0.625rem;
   border-radius: 1.25rem;
   background: #858584;
-  -webkit-transition: 0.3;
-  transition: 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
+}
+@media (any-hover: hover) {
+  .collections-body-marketplace__number:hover {
+    color: #858584;
+  }
 }
 
 .market__items {
@@ -657,9 +667,8 @@ textarea {
   margin-bottom: 40px;
 }
 .header-body-artist__link {
-  -webkit-transform: color 0.3s;
-      -ms-transform: color 0.3s;
-          transform: color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 @media (any-hover: hover) {
   .header-body-artist__link:hover {
