@@ -174,38 +174,40 @@ body {
 }
 
 .card-hero {
-    perspective: 400px;
+   /* perspective: 400px; */
     // .card-hero__items
 
     &__items {
+        /*
+        animation: rotate 8s infinite;
 
-        @media (any-hover: hover) {
-            &:hover {
-                animation: rotate 8s infinite;
+        @keyframes rotate {
+            0% {
+                transform: rotateY(-15deg)
+            }
 
-                @keyframes rotate {
-                    0% {
-                        transform: rotateY(-15deg)
-                    }
+            25% {
+                transform: rotateY(0deg)
+            }
 
-                    25% {
-                        transform: rotateY(0deg)
-                    }
+            50% {
+                transform: rotateY(15deg)
+            }
 
-                    50% {
-                        transform: rotateY(15deg)
-                    }
+            75% {
+                transform: rotateY(0deg)
+            }
 
-                    75% {
-                        transform: rotateY(0deg)
-                    }
-
-                    100% {
-                        transform: rotateY(-15deg)
-                    }
-                }
+            100% {
+                transform: rotateY(-15deg)
             }
         }
+        @media (any-hover: hover) {
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        */
 
 
     }
