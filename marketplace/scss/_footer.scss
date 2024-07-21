@@ -114,6 +114,7 @@
         gap: toRem(12);
         border-radius: 1.25rem;
         background: #FFF;
+        color: #2B2B2B;
         @media (max-width: toEm(500)) {        
             flex-direction: column;
             background: none;

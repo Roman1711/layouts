@@ -1074,6 +1074,7 @@ textarea {
   gap: 0.75rem;
   border-radius: 1.25rem;
   background: #FFF;
+  color: #2B2B2B;
 }
 @media (max-width: 31.25em) {
   .box-footer__form {
